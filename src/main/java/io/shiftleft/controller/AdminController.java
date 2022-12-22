@@ -94,7 +94,7 @@ public class AdminController {
         }
       }
 
-      // split password=value
+       split password=value
       String[] pass = password.split("=");
       if(pass.length!=2) {
         return fail;
